@@ -15,6 +15,7 @@
 一个预配置好的 OpenClaw AI 助手模板，帮你跳过繁琐的初始化，**5 分钟拥有自己的 AI 私人助手**。
 
 包含：
+
 - 📜 **灵魂三件套**：`SOUL.md` / `USER.md` / `IDENTITY.md` 模板
 - 💓 **心跳配置**：`HEARTBEAT.md` 预设日常检查项
 - 🧠 **记忆系统**：`MEMORY.md` + `memory/` 目录结构
