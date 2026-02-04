@@ -86,7 +86,7 @@ clawd/
 
 | 技能 | 用途 | 安装命令 |
 |------|------|---------|
-| weather | 天气查询 | `clawdhub install weather` |
+| weather | 高德-天气查询 | skills |
 | github | GitHub 操作 | 内置 |
 | todo-tracker | 任务管理 | `clawdhub install todo-tracker` |
 | remind-me | 自然语言提醒 | `clawdhub install remind-me` |
@@ -95,6 +95,14 @@ clawd/
 | web-search | 网页搜索 | 内置 |
 
 完整技能列表请查看 [ClawdHub](https://clawdhub.com)。
+
+## 🗄️ 备份策略（约定）
+
+- **系统级运行目录**：OpenClaw 的运行态目录（通常位于用户主目录下的隐藏目录）
+- **你的自定义配置/文档/skills**：本仓库目录（你 clone 到哪里就是哪里）
+- **所有“备份类文件”统一归档到**：专用备份目录（按你机器习惯设置）
+
+> 备注：文档中避免出现服务器绝对路径；按“角色/用途”描述即可。
 
 ## 🔒 安全提醒
 
