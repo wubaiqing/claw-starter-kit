@@ -1,0 +1,15 @@
+# Environment & secrets
+.env
+.env.*
+clawdbot.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Temp
+*.tmp
+*.log
