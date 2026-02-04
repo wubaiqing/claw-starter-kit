@@ -88,7 +88,7 @@ clawd/
 |------|------|---------|
 | weather | 天气查询 | `clawdhub install weather` |
 | github | GitHub 操作 | 内置 |
-| todo-tracker | 任务管理 | `clawdhub install jdrhyne/todo-tracker` |
+| todo-tracker | 任务管理 | `clawdhub install todo-tracker` |
 | remind-me | 自然语言提醒 | `clawdhub install remind-me` |
 | gog | Google 邮箱/日历/文档 | `clawdhub install gog` |
 | youtube-watcher | 视频摘要 | `clawdhub install youtube-watcher` |

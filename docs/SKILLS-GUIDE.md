@@ -21,7 +21,7 @@ clawdhub install remind-me
 ### TODO
 
 ```bash
-clawdhub install jdrhyne/todo-tracker
+clawdhub install todo-tracker
 ```
 
 任务管理，支持优先级和完成状态。
