@@ -78,6 +78,8 @@ clawd/
 │   └── .gitkeep
 ├── content/           # 内容输出目录
 │   └── .gitkeep
+├── skills/            # Skills 目录（自定义/扩展）
+│   └── .gitkeep
 └── docs/
     └── SKILLS-GUIDE.md  # 推荐技能清单和安装指南
 ```
