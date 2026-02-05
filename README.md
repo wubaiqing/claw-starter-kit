@@ -60,7 +60,7 @@ vim IDENTITY.md
 
 ```json
 {
-  agents: { defaults: { workspace: "~/workspace" } },
+  agents: { defaults: { workspace: "~/workspace" } }
 }
 ```
 
