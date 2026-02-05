@@ -1,6 +1,5 @@
 # Environment & secrets
 .env
-.env.*
 clawdbot.json
 
 # OS
