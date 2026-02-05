@@ -10,20 +10,20 @@
 
 ---
 
-## ✨ 这是什么？
+## 这是什么？
 
 一个预配置好的 OpenClaw AI 助手模板，帮你跳过繁琐的初始化，**5 分钟拥有自己的 AI 私人助手**。
 
 包含：
 
-- 📜 **灵魂三件套**：`SOUL.md` / `USER.md` / `IDENTITY.md` 模板
-- 💓 **心跳配置**：`HEARTBEAT.md` 预设日常检查项
-- 🧠 **记忆系统**：`MEMORY.md` + `memory/` 目录结构
-- 📋 **工作指南**：`AGENTS.md` 行为准则
-- 🔧 **工具笔记**：`TOOLS.md` 本地工具速查
-- 📚 **推荐 Skills**：精选实用技能列表
+- **灵魂三件套**：`SOUL.md` / `USER.md` / `IDENTITY.md` 模板
+- **心跳配置**：`HEARTBEAT.md` 预设日常检查项
+- **记忆系统**：`MEMORY.md` + `memory/` 目录结构
+- **工作指南**：`AGENTS.md` 行为准则
+- **工具笔记**：`TOOLS.md` 本地工具速查
+- **推荐 Skills**：精选实用技能列表
 
-## 🚀 快速开始
+## 快速开始
 
 ### 1. 安装 OpenClaw
 
@@ -35,8 +35,8 @@ npm install -g openclaw
 
 ```bash
 # 克隆此模板
-git clone https://github.com/wubaiqing/claw-starter-kit.git ~/workspace
-cd ~/workspace
+git clone https://github.com/wubaiqing/claw-starter-kit.git workspace
+cd workspace
 ```
 
 ### 3. 个性化配置
@@ -64,15 +64,13 @@ vim IDENTITY.md
 }
 ```
 
-修改 `~/workspace/.env` 文件，变更环境变量：
-
-```bash
-mv ~/workspace/.env.example ~/.openclaw/.env
-```
-
 ### 5. 配置环境变量（.env）
 
-在项目根目录创建 `.env`，填写需要的密钥或配置，例如：
+修改 `.env.example` 文件，重命名为 `.env`，填写需要的密钥或配置，例如：
+
+```bash
+mv .env.example .env
+```
 
 ```bash
 AMAP_WEATHER_KEY=你的高德Key
@@ -86,7 +84,7 @@ openclaw gateway start
 
 然后在 Telegram / 飞书 上跟你的助手说声「你好」！
 
-## 📁 文件结构
+## 文件结构
 
 ```
 workspace/
@@ -108,7 +106,7 @@ workspace/
     └── SKILLS-GUIDE.md  # 推荐技能清单和安装指南
 ```
 
-## 🧩 推荐 Skills
+## 推荐 Skills
 
 | 技能 | 用途 | 安装方式 |
 |------|------|---------|
@@ -123,7 +121,7 @@ workspace/
 
 完整技能列表请查看 [ClawdHub](https://clawdhub.com)。
 
-## 🗄️ 备份策略（约定）
+## 备份策略（约定）
 
 - **系统级运行目录**：OpenClaw 的运行态目录（通常位于用户主目录下的隐藏目录）
 - **你的自定义配置/文档/skills**：本仓库目录（你 clone 到哪里就是哪里）
@@ -131,13 +129,13 @@ workspace/
 
 > 备注：文档中避免出现服务器绝对路径；按“角色/用途”描述即可。
 
-## 🔒 安全提醒
+## 安全提醒
 
-- ⚠️ 不要把 API Key 提交到 Git（使用 `.env` 或环境变量）
-- ⚠️ 安装 Skill 前检查源码
-- ⚠️ `clawdbot.json` 配置文件权限建议设为 `chmod 600`
-- ⚠️ 定期检查和清理 `MEMORY.md` 中的敏感信息
+- 不要把 API Key 提交到 Git（使用 `.env` 或环境变量）
+- 安装 Skill 前检查源码
+- `clawdbot.json` 配置文件权限建议设为 `chmod 600`
+- 定期检查和清理 `MEMORY.md` 中的敏感信息
 
-## 📄 License
+## License
 
 MIT License - 自由使用、修改、分发。
