@@ -86,9 +86,10 @@ clawd/
 
 ## 🧩 推荐 Skills
 
-| 技能 | 用途 | 安装命令 |
+| 技能 | 用途 | 安装方式 |
 |------|------|---------|
-| weather | 高德-天气查询 | skills |
+| gaode-weather | 高德-天气查询 | 本地 `skills/` |
+| sleep-nagger | 熬夜提醒 | 本地 `skills/` |
 | github | GitHub 操作 | 内置 |
 | todo-tracker | 任务管理 | `clawdhub install todo-tracker` |
 | remind-me | 自然语言提醒 | `clawdhub install remind-me` |

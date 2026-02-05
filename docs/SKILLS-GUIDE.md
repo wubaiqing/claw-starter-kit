@@ -1,24 +1,22 @@
 # 推荐 Skills 安装指南
 
-## 必装
+## 必装（本地 skills）
 
-### 天气
+### gaode-weather
 
-```bash
-clawdhub install weather
-```
+本地 `skills/` 目录中自带。
 
-天气查询，支持全球城市。
+高德天气查询。
 
-### 提醒
+### sleep-nagger
 
-```bash
-clawdhub install remind-me
-```
+本地 `skills/` 目录中自带。
 
-自然语言设置提醒，自动创建 cron 任务。
+熬夜提醒与作息提示。
 
-### TODO
+## 可选（ClawdHub）
+
+### todo-tracker
 
 ```bash
 clawdhub install todo-tracker
@@ -28,7 +26,7 @@ clawdhub install todo-tracker
 
 ## 📧 效率
 
-### Google 套件（Gmail/Calendar/Drive）
+### gog（Google 套件：Gmail/Calendar/Drive）
 
 ```bash
 clawdhub install gog
@@ -36,13 +34,13 @@ clawdhub install gog
 
 需要 Google OAuth 配置。参考 [gog 文档](https://clawdhub.com/skills/gog)。
 
-### GitHub
+### github
 
 内置 skill，需要 `gh` CLI 登录。
 
 ## 🔍 信息
 
-### YouTube 摘要
+### youtube-watcher
 
 ```bash
 clawdhub install youtube-watcher
@@ -50,7 +48,7 @@ clawdhub install youtube-watcher
 
 获取视频字幕并生成摘要。
 
-### Reddit
+### reddit
 
 ```bash
 clawdhub install reddit
@@ -60,13 +58,13 @@ clawdhub install reddit
 
 ## 📊 增长
 
-### SEO 审计
+### seo-audit
 
 ```bash
 clawdhub install seo-audit
 ```
 
-### Google Search Console
+### gsc
 
 ```bash
 clawdhub install gsc
@@ -74,7 +72,7 @@ clawdhub install gsc
 
 需要 OAuth 配置。
 
-### Google Analytics 4
+### ga4
 
 ```bash
 clawdhub install ga4
