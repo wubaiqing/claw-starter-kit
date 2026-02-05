@@ -56,7 +56,8 @@ vim IDENTITY.md
 
 ### 4. 配置 
 
-修改 `~/.openclaw/workspace` 把 workspace 参数改成 `~/workspace`
+修改 `~/.openclaw/openclaw.json` 把 agents 参数指向到 `~/workspace` 目录
+
 ```json
 {
   agents: { defaults: { workspace: "~/workspace" } },
