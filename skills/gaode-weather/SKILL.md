@@ -1,6 +1,6 @@
 ---
 name: gaode-weather
-description: 使用高德地图天气 API 获取每日天气（城市 code 如 110114 昌平），从 .env 环境变量 GAODE_OPENCLAW_KEY 读取 key。用于定时天气推送、替代 wttr.in、在国内网络更稳定时获取实时天气。
+description: 使用高德地图天气 API 获取每日天气（城市 code 如 110114 昌平），从 .env 环境变量 AMAP_WEATHER_KEY 读取 key。用于定时天气推送、替代 wttr.in、在国内网络更稳定时获取实时天气。
 ---
 
 # gaode-weather
@@ -12,7 +12,7 @@ description: 使用高德地图天气 API 获取每日天气（城市 code 如 1
 把 Key 放到 **OpenClaw 运行环境的 .env** 里（例如 OpenClaw 的运行环境变量文件），变量名：
 
 ```
-GAODE_OPENCLAW_KEY="<your-key>"
+AMAP_WEATHER_KEY="<your-key>"
 ```
 
 （不要把 key 提交到 git。）

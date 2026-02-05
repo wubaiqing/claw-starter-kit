@@ -2,10 +2,10 @@
 set -euo pipefail
 
 CITY_CODE="${1:-110114}"  # 昌平 110114
-KEY="${GAODE_OPENCLAW_KEY:-}"
+KEY="${AMAP_WEATHER_KEY:-}"
 
 if [[ -z "$KEY" ]]; then
-  echo "GAODE_OPENCLAW_KEY 未设置（请在 OpenClaw 运行环境的 .env 或环境变量中设置）" >&2
+  echo "AMAP_WEATHER_KEY 未设置（请在 OpenClaw 运行环境的 .env 或环境变量中设置）" >&2
   exit 2
 fi
 

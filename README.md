@@ -35,8 +35,8 @@ npm install -g openclaw
 
 ```bash
 # 克隆此模板
-git clone https://github.com/wubaiqing/claw-starter-kit.git clawd
-cd clawd
+git clone https://github.com/wubaiqing/claw-starter-kit.git ~/workspace
+cd ~/workspace
 ```
 
 ### 3. 个性化配置
@@ -54,7 +54,30 @@ vim USER.md
 vim IDENTITY.md
 ```
 
-### 4. 启动
+### 4. 配置 
+
+修改 `~/.openclaw/workspace` 把 workspace 参数改成 `~/workspace`
+```json
+{
+  agents: { defaults: { workspace: "~/workspace" } },
+}
+```
+
+修改 `~/workspace/.env` 文件，变更环境变量：
+
+```bash
+mv ~/workspace/.env.example ~/.openclaw/.env
+```
+
+### 5. 配置环境变量（.env）
+
+在项目根目录创建 `.env`，填写需要的密钥或配置，例如：
+
+```bash
+AMAP_WEATHER_KEY=你的高德Key
+```
+
+### 6. 启动
 
 ```bash
 openclaw gateway start
@@ -65,7 +88,7 @@ openclaw gateway start
 ## 📁 文件结构
 
 ```
-clawd/
+workspace/
 ├── AGENTS.md          # 助手的行为准则和工作流程
 ├── SOUL.md            # 灵魂文件：性格、语气、边界
 ├── USER.md            # 用户画像：让助手了解你
