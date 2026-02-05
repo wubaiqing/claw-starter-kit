@@ -64,16 +64,21 @@ vim IDENTITY.md
 }
 ```
 
-### 5. 配置环境变量（.env）
+### 5. 配置环境变量（全局）
 
-修改 `.env.example` 文件，重命名为 `.env`，填写需要的密钥或配置，例如：
-
-```bash
-mv .env.example .env
-```
+使用提供的脚本将环境变量注入到系统 Shell 配置中：
 
 ```bash
-AMAP_WEATHER_KEY=你的高德Key
+# 1. 先在 .env.example 中填写环境变量的值
+vim .env.example
+
+# 2. 运行注入脚本
+./scripts/inject-env.sh
+
+# 3. 使配置生效（根据你的 Shell 选择）
+source ~/.zshrc   # zsh 用户
+# 或
+source ~/.bashrc  # bash 用户
 ```
 
 ### 6. 启动
