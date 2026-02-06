@@ -101,12 +101,15 @@ workspace/
 ├── MEMORY.md          # 长期记忆：重要事件和经验
 ├── TOOLS.md           # 工具笔记：本地配置速查
 ├── TODO.md            # 任务清单
+├── .env.example       # 环境变量示例（填写后使用 inject-env.sh 注入）
 ├── memory/            # 每日记忆文件
 │   └── .gitkeep
 ├── content/           # 内容输出目录
 │   └── .gitkeep
 ├── skills/            # Skills 目录（自定义/扩展）
 │   └── .gitkeep
+├── scripts/           # 实用脚本
+│   └── inject-env.sh  # 环境变量注入脚本
 └── docs/
     └── SKILLS-GUIDE.md  # 推荐技能清单和安装指南
 ```
@@ -118,10 +121,10 @@ workspace/
 | gaode-weather | 高德-天气查询 | 本地 `skills/` |
 | sleep-nagger | 熬夜提醒 | 本地 `skills/` |
 | github | GitHub 操作 | 内置 |
-| todo-tracker | 任务管理 | `clawdhub install todo-tracker` |
-| remind-me | 自然语言提醒 | `clawdhub install remind-me` |
-| gog | Google 邮箱/日历/文档 | `clawdhub install gog` |
-| youtube-watcher | 视频摘要 | `clawdhub install youtube-watcher` |
+| todo-tracker | 任务管理 | `npx clawhub@latest install todo-tracker` |
+| remindme | 自然语言提醒 | `npx clawhub@latest install remindme` |
+| gog | Google 邮箱/日历/文档 | `npx clawhub@latest install gog` |
+| youtube-watcher | 视频摘要 | `npx clawhub@latest install youtube-watcher` |
 | web-search | 网页搜索 | 内置 |
 
 完整技能列表请查看 [ClawdHub](https://clawdhub.com)。

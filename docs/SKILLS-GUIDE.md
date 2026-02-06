@@ -19,7 +19,7 @@
 ### todo-tracker
 
 ```bash
-clawdhub install todo-tracker
+npx clawhub@latest install todo-tracker
 ```
 
 任务管理，支持优先级和完成状态。
@@ -29,7 +29,7 @@ clawdhub install todo-tracker
 ### gog（Google 套件：Gmail/Calendar/Drive）
 
 ```bash
-clawdhub install gog
+npx clawhub@latest install gog
 ```
 
 需要 Google OAuth 配置。参考 [gog 文档](https://clawdhub.com/skills/gog)。
@@ -43,7 +43,7 @@ clawdhub install gog
 ### youtube-watcher
 
 ```bash
-clawdhub install youtube-watcher
+npx clawhub@latest install youtube-watcher
 ```
 
 获取视频字幕并生成摘要。
@@ -51,7 +51,7 @@ clawdhub install youtube-watcher
 ### reddit
 
 ```bash
-clawdhub install reddit
+npx clawhub@latest install reddit
 ```
 
 浏览、搜索 Reddit 内容。
@@ -61,13 +61,13 @@ clawdhub install reddit
 ### seo-audit
 
 ```bash
-clawdhub install seo-audit
+npx clawhub@latest install seo-audit
 ```
 
 ### gsc
 
 ```bash
-clawdhub install gsc
+npx clawhub@latest install gsc
 ```
 
 需要 OAuth 配置。
@@ -75,7 +75,7 @@ clawdhub install gsc
 ### ga4
 
 ```bash
-clawdhub install ga4
+npx clawhub@latest install ga4
 ```
 
 需要 OAuth 配置。
