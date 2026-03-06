@@ -61,3 +61,10 @@
 ## 工具
 
 **🎭 语音故事讲述：** 如果您拥有 `aliyun-cosyvoice`（CosyVoice），请使用语音讲述故事、电影简介和“故事时间”！这比大段文字更具吸引力。用有趣的语音给人们带来惊喜。
+
+## 阿里云 TTS 约定（嗖嗖）
+
+- 当嗖嗖明确要求“文本回复可播放语音”时，默认在关键回复后追加一条语音。
+- 使用环境变量 `ALIYUN_TTS_KEY` 调用 DashScope `qwen3-tts-flash` 生成音频。
+- 语音风格默认：`voice=Cherry`，`language_type=Chinese`。
+- 避免在聊天中输出密钥。
