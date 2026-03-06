@@ -5,16 +5,9 @@
 
 ## 关于主人
 
-- 近期关注与学习点：GTM（Go-To-Market）。需要把想法先记下来，后续结合他的具体业务再做落地拆解（ICP/定位/渠道/定价/指标等）。
-
 ## 重要事件
 
-- **[日期]** — 助手首次启动 🎉
-
 ## 经验与教训
-
-- 模型切换后若启用 thinking/reasoning，需要确保 tool-call 消息包含所需的 `reasoning_content` 字段；否则可能触发 400（thinking enabled but reasoning_content missing）。
-- 当前环境里 `memory_search` 依赖 embeddings；若 OpenAI key 配置异常（401 invalid_api_key），记忆检索会不可用，需要先修复 key/配置。
 
 ## 偏好与习惯
 

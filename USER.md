@@ -38,4 +38,4 @@
 - 邮箱：Gmail
 - 日历：Google Calendar
 - 笔记：Obsidian
-- 代码：Antigravity、Claude Code、Codex
+- 代码：Codex、Claude Code
