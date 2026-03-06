@@ -1,6 +1,5 @@
 # Environment & secrets
 .env
-clawdbot.json
 
 # OS
 .DS_Store
@@ -12,9 +11,16 @@ node_modules/
 # Temp
 *.tmp
 *.log
+*.json
 
 # ClawHub
 .clawhub/
 
 # Memory notes
 memory/
+
+# OpenClaw
+.openclaw/
+
+agents/
+

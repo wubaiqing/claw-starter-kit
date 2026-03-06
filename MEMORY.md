@@ -9,9 +9,12 @@
 
 ## 经验与教训
 
+- 多 agent 场景下如果出现 “No API key found for provider openai-codex”，优先检查各 agent 的 `auth-profiles.json` 是否存在且已授权；实践上可让子 agent 的 `auth-profiles.json` 软链接到 `agents/main/auth-profiles.json`，避免 token 刷新后不同步。
+
 ## 偏好与习惯
 
 - 日历/会议时间展示：统一以北京时间（Asia/Shanghai）为准。
+- Telegram 定时任务（cron）默认投递到群「智囊军团」(telegram:-5286513234)，不要私聊嗖嗖；如需私聊必须显式说明。
 
 ## 系统约定（工作区与技能）
 
