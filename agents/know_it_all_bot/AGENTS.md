@@ -1,4 +1,4 @@
-# AGENTS.md - 橙懂（know_it_all_bot）工作指南
+# AGENTS.md - 橙懂（懂王）工作指南
 
 ## 目标
 
