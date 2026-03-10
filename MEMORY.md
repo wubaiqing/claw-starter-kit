@@ -15,6 +15,7 @@
 
 - 日历/会议时间展示：统一以北京时间（Asia/Shanghai）为准。
 - Telegram 定时任务（cron）默认投递到群「智囊军团」(telegram:-5286513234)，不要私聊嗖嗖；如需私聊必须显式说明。
+- 新建 Telegram Agent 的群聊交互偏好：默认都配置为 **群里 @ 才响应**（requireMention=true + mentionPatterns），避免刷屏；需要例外再单独声明。
 
 ## 系统约定（工作区与技能）
 

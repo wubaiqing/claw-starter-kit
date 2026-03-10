@@ -22,10 +22,5 @@ memory/
 # OpenClaw
 .openclaw/
 
-agents/main/sessions
-agents/product/sessions
-agents/product/templates
-agents/know_it_all_bot/sessions
-agents/know_it_all_bot/templates
-agents/translation/sessions
-agents/translation/templates
+agents/**/sessions
+agents/**/templates
